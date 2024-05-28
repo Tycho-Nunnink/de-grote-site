@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div:has(#c:indeterminate) {
+    background-color: red;
+}
+
+form {
+    margin: 10px;
+}
+
+form input {
+    margin: 5px;
+}
