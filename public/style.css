@@ -1,10 +1,11 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
 }
 
-div:has(#c:indeterminate) {
-    background-color: red;
+body {
+    background-color: lightgray;
 }
 
 form {
@@ -13,4 +14,38 @@ form {
 
 form input {
     margin: 5px;
+}
+
+a {
+    display: block;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+article div{
+    padding: 10px;
+    width: 40%;
+    height: 100vh;
+    background-color: white;
+}
+
+head {
+    justify-content: left;
+    height: 50px;
+    background-color: dodgerblue;
+}
+
+.warning {
+    background-color: lightcoral;
+    border: 3px red solid;
+    width: auto;
+    margin: 10px;
+    font-style: italic;
+}
+
+.warning:empty {
+    display: none;
 }
